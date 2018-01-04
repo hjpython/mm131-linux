@@ -213,7 +213,7 @@ if __name__ == '__main__':
         #url = url['href']
         #print(url)
         #xiazai_mm131(url)
-    for i in range(10,11):
+    for i in range(22,122):
         print("第"+str(i)+"页")
         url = 'http://www.mm131.com/xinggan/list_6_'+str(i)+'.html'
         html = urllib.request.urlopen(url).read()
